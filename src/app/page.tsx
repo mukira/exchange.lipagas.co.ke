@@ -21,7 +21,7 @@ export default function GoogleFormEmbed() {
             src="https://docs.google.com/forms/d/e/1FAIpQLSe3ijW3lXAy7wRePo61zc-DeuR_xbVj_1sfnSEgiDfwQSeLqQ/viewform?embedded=true"
             className="absolute inset-0 w-full h-full border-0"
             onLoad={() => setIsLoading(false)}
-            title="Mpesa API Integration Form"
+            title="MamaGas Cylinder Exchange"
             scrolling="no"
           >
             Loading…

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Mpesa API Integration Form",
+  title: "MamaGas Cylinder Exchange",
   description: "Secure and premium form hosting.",
 };
 
