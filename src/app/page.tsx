@@ -7,7 +7,7 @@ export default function GoogleFormEmbed() {
 
   return (
     <div className="min-h-screen w-full bg-gradient-to-br from-gray-50 via-white to-purple-50 flex flex-col items-center py-12 px-4">
-      <div className="w-full max-w-4xl bg-white backdrop-blur-lg rounded-2xl border border-gray-200 shadow-2xl overflow-hidden relative py-8">
+      <div className="w-full max-w-4xl bg-white backdrop-blur-lg rounded-2xl border border-gray-200 shadow-2xl overflow-hidden relative pt-16 pb-8">
         {/* Loading State */}
         {isLoading && (
           <div className="absolute inset-0 flex items-center justify-center z-10 bg-gray-900/50">
