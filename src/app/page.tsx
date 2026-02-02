@@ -7,7 +7,7 @@ export default function GoogleFormEmbed() {
 
   return (
     <div className="min-h-screen w-full bg-gradient-to-br from-gray-50 via-white to-purple-50 flex flex-col items-center py-12 px-4">
-      <div className="w-full max-w-4xl bg-white backdrop-blur-lg rounded-2xl border border-gray-200 shadow-2xl overflow-hidden relative">
+      <div className="w-full max-w-4xl bg-white backdrop-blur-lg rounded-2xl border border-gray-200 shadow-2xl overflow-hidden relative pb-8">
         {/* Loading State */}
         {isLoading && (
           <div className="absolute inset-0 flex items-center justify-center z-10 bg-gray-900/50">
@@ -16,7 +16,7 @@ export default function GoogleFormEmbed() {
         )}
 
         {/* Form Iframe */}
-        <div className="relative w-full h-[2000px]">
+        <div className="relative w-full h-[1450px]">
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSe3ijW3lXAy7wRePo61zc-DeuR_xbVj_1sfnSEgiDfwQSeLqQ/viewform?embedded=true"
             className="absolute inset-0 w-full h-full border-0"
