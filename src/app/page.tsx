@@ -16,7 +16,7 @@ export default function GoogleFormEmbed() {
         )}
 
         {/* Form Iframe */}
-        <div className="relative w-full h-[1450px]">
+        <div className="relative w-full h-[2200px] md:h-[1450px]">
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSe3ijW3lXAy7wRePo61zc-DeuR_xbVj_1sfnSEgiDfwQSeLqQ/viewform?embedded=true"
             className="absolute inset-0 w-full h-full border-0"
